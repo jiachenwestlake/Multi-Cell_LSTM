@@ -1,2 +1,2 @@
 # Multi-Cell_LSTM
-The code for ACL2020 paper "Multi-Cell Compositional LSTM for NER Domain Adaptation"
+Multi-Cell Compositional LSTM for NER Domain Adaptation, code for ACL 2020 paper.
