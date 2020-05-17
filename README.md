@@ -17,17 +17,18 @@ allennlp 0.8.2 (Optional)
 pytorch-pretrained-bert 0.6.1 (Optional)
 ```
 
-## Pretrained Embeddings
-GloVe 100-dimension word vectors (Download from [*Here*](https://pan.baidu.com/s/1kgwVCGkbmcUVYyLb8VlXeQ) with key `ifyk`).
-ELmo Weights (Download from [*Here*](https://pan.baidu.com/s/1I4589wAsI-pivRcA4kTavg) with key `a9h6`)
-Bert-base Weights (Download from [*Here*](https://pan.baidu.com/s/1c1sK_J-cbJvtz52WyA9IBg) with key `gbn1`)
-BioBert-base Weights (Download from [*Here*](https://pan.baidu.com/s/1Mj81A9SRtXwQ_SZoV8vHfA) with key `zsep`)
+## Word Embeddings and Pretrained LM Weights
+GloVe 100-dimension word vectors (Download from [*Here*](https://pan.baidu.com/s/1kgwVCGkbmcUVYyLb8VlXeQ) with key `ifyk`) <br>
+PubMed 200-dimension word vectors (Refer to [*Here*](https://www.aclweb.org/anthology/W16-2922/)) <br>
+ELMo Weights (Download from [*Here*](https://pan.baidu.com/s/1I4589wAsI-pivRcA4kTavg) with key `a9h6`) <br>
+BERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1c1sK_J-cbJvtz52WyA9IBg) with key `gbn1`) <br>
+BioBERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1Mj81A9SRtXwQ_SZoV8vHfA) with key `zsep`)
 
 ## DataSet
 ### SDA:
-CoNLL-2003 English NER data (In: `SDA/data/conll03_En`). <br>
-Broad Twitter corpus (In: `SDA/data/broad_twitter_corpus`). <br>
-[BioNLP'13PC and BioNLP'13CG corpus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset. <br>
+CoNLL-2003 English NER data (In: `SDA/data/conll03_En`) <br>
+Broad Twitter corpus (In: `SDA/data/broad_twitter_corpus`) <br>
+[BioNLP'13PC and BioNLP'13CG corpus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset <br>
 Twitter corpus (Refer to [*Here*](https://www.aclweb.org/anthology/P18-1185.pdf))
 
 ### UDA:
@@ -35,7 +36,7 @@ CoNLL-2003 English NER data (In: `SDA/data/conll03_En`). <br>
 CBS SciTech News (test set) (In: `UDA/data/tech/tech.test`). <br>
 
 ## LM raw data
-SciTech news domain raw data [Download](https://pan.baidu.com/s/1_gv5eop_lL3HEUbhj8JqQg) with key `4834`, and put it in `UDA/data/tech`. <br>
+SciTech news domain raw data [Download](https://pan.baidu.com/s/1_gv5eop_lL3HEUbhj8JqQg) with key `4834`, and put it in `UDA/data/tech`. 
 
 ## Entity dictionary used in UDA
 The named entity dictionary is collected by [Peng et. al.](https://arxiv.org/pdf/1906.01378.pdf) and In `UDA/data/tech/conll2003_dict`.
