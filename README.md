@@ -59,7 +59,7 @@ For example, you can download our trained [models](https://pan.baidu.com/s/1Tdol
 
 
 ## Cite:
-If you use our data or code, please cite our paper as follows:
+If you use our code, please cite our paper as follows:
 ```
 @inproceedings{jia2020muli-cell-lstm,
   title={Multi-cell compositional lstm for ner domain adaptation},
