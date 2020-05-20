@@ -55,7 +55,7 @@ The file `train.config` contains dataset path and model hyperparameters.
 python main.py --config decode.config
 ```
 The file `decode.config` contains dataset path and paths for tarined models. <br>
-For example, you can download our trained [models](https://pan.baidu.com/s/1Tdoli7QiPl2SUL6N6w4X3g) with key `matp`, unzip the two files `.dset` and `.model` and put them into `SDA/saved_models`. Then you can use the above comment to get our reported result on the broad twitter corpus.
+For example, you can download our trained [models](https://pan.baidu.com/s/1Tdoli7QiPl2SUL6N6w4X3g) with key `matp`, unzip the two files `.dset` and `.model` and put them into `SDA/saved_models`. Then you can use the above comment to get our reported result on the broad twitter corpus. UDA [models](https://pan.baidu.com/s/1ji7REqVJOdrAfI4v5Mv3Mw) with key `2s6n` are decoded similarly.
 
 
 ## Cite:
