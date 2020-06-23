@@ -6,7 +6,7 @@ Cross-domain NER is a challenging yet practical problem. Entity mentions can be 
 <br> <br>
 For more details, please refer to our paper:
 <br><br>
-[Multi-Cell Compositional LSTM for NER Domain Adaptation]()
+[Multi-Cell Compositional LSTM for NER Domain Adaptation](https://www.aclweb.org/anthology/2020.acl-main.524)
 
 
 ## Requirements
@@ -61,12 +61,13 @@ For example, you can download our trained [models](https://pan.baidu.com/s/1Tdol
 ## Cite:
 If you use our code, please cite our paper as follows:
 ```
-@inproceedings{jia2020muli-cell-lstm,
-  title={Multi-cell compositional lstm for ner domain adaptation},
-  author={Jia, Chen and Zhang, Yue},
-  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-  pages={},
-  year={2020}
-  organization={Association for Computational Linguistics}
+@inproceedings{jia-zhang-2020-multi,
+    title = "Multi-Cell Compositional {LSTM} for {NER} Domain Adaptation",
+    author = "Jia, Chen  and  Zhang, Yue",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    year = "2020",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.524",
+    pages = "5906--5917"
 }
 ```
