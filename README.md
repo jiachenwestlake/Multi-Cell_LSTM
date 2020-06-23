@@ -6,7 +6,7 @@ Cross-domain NER is a challenging yet practical problem. Entity mentions can be 
 <br> <br>
 For more details, please refer to our paper:
 <br><br>
-[Multi-Cell Compositional LSTM for NER Domain Adaptation](https://www.aclweb.org/anthology/2020.acl-main.524)
+[Multi-Cell Compositional LSTM for NER Domain Adaptation](https://www.aclweb.org/anthology/2020.acl-main.524.pdf)
 
 
 ## Requirements
