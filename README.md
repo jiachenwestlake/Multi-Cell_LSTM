@@ -11,7 +11,7 @@ For more details, please refer to our paper:
 ## Overall Structure
 ![Overall Structure](https://github.com/jiachenwestlake/Multi-Cell_LSTM/blob/master/overall_structure.PNG)
 
-**The Entity Typed cells (ET cells) corresponds to the source- and target-domain entity types (including O, which is used as the outside tagger in NER).**
+**The Entity Typed cells (ET cells) correspond to the source- and target-domain entity types (including O, which is used as the outside tagger in NER).**
 
 ## Requirements
 ```
