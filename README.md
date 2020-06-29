@@ -2,7 +2,7 @@
 Multi-Cell Compositional LSTM for NER Domain Adaptation, code for ACL 2020 paper.
 
 ## Introduction
-Cross-domain NER is a challenging yet practical problem. Entity mentions can be highly different across domains. However, the correlations between entity types can be relatively more stable across domains. We investigate a multi-cell compositional LSTM structurefor multi-task learning, modeling each entity type using a separate cell state. With the help of entity typed units, cross-domain knowledge transfer can be made in an entity type level. Theoretically, the resulting distinct feature distributions for each entity type make it more powerful for cross-domain transfer. Empirically, experiments on four few-shot and zeroshot datasets show our method signiﬁcantly outperforms a series of multi-task learning methods and achieves the best results.
+Cross-domain NER is a challenging yet practical problem. Entity mentions can be highly different across domains. However, the correlations between entity types can be relatively more stable across domains. We investigate a multi-cell compositional LSTM structure for multi-task learning, modeling each entity type using a separate cell state. With the help of entity typed units, cross-domain knowledge transfer can be made in an entity type level. Theoretically, the resulting distinct feature distributions for each entity type make it more powerful for cross-domain transfer. Empirically, experiments on four few-shot and zeroshot datasets show our method signiﬁcantly outperforms a series of multi-task learning methods and achieves the best results.
 <br> <br>
 For more details, please refer to our paper:
 <br><br>
@@ -11,7 +11,7 @@ For more details, please refer to our paper:
 ## Overall Structure
 ![Overall Structure](https://github.com/jiachenwestlake/Multi-Cell_LSTM/blob/master/overall_structure.PNG)
 
-**The Entity Typed cells (ET cells) correspond to the source- and target-domain entity types (including O, which is used as the outside tagger in NER).**
+**_The Entity Typed cells (ET cells) correspond to the source- and target-domain entity types_(including O, which is used as the outside tagger in NER).**
 
 ## Requirements
 ```
