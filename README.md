@@ -2,7 +2,7 @@
 Multi-Cell Compositional LSTM for NER Domain Adaptation, code for ACL 2020 paper.
 
 ## Introduction
-Cross-domain NER is a challenging yet practical problem. Entity mentions can be highly different across domains. However, the correlations between entity types can be relatively more stable across domains. We investigate a multi-cell compositional LSTM structure for multi-task learning, modeling each entity type using a separate cell state. With the help of entity typed units, cross-domain knowledge transfer can be made in an entity type level. Theoretically, the resulting distinct feature distributions for each entity type make it more powerful for cross-domain transfer. Empirically, experiments on four few-shot and zeroshot datasets show our method signiﬁcantly outperforms a series of multi-task learning methods and achieves the best results.
+Cross-domain NER is a challenging yet practical problem. Entity mentions can be highly different across domains. However, the correlations between entity types can be relatively more stable across domains. We investigate a multi-cell compositional LSTM structure for multi-task learning, modeling each entity type using a separate cell state. With the help of entity typed units, cross-domain knowledge transfer can be made in an entity type level. Theoretically, the resulting distinct feature distributions for each entity type make it more powerful for cross-domain transfer. Empirically, experiments on four few-shot and zero-shot datasets show our method signiﬁcantly outperforms a series of multi-task learning methods and achieves the best results.
 <br> <br>
 For more details, please refer to our paper:
 <br><br>
@@ -29,13 +29,13 @@ BERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1c1sK_J-cbJvtz
 BioBERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1Mj81A9SRtXwQ_SZoV8vHfA) with key `zsep`)
 
 ## DataSet
-### SDA:
+### Supervised Domain Adaptation (SDA):
 CoNLL-2003 English NER data (In: `SDA/data/conll03_En`) <br>
 Broad Twitter corpus (In: `SDA/data/broad_twitter_corpus`) <br>
 [BioNLP'13PC and BioNLP'13CG corpus](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset <br>
 Twitter corpus (Refer to [*Here*](https://www.aclweb.org/anthology/P18-1185.pdf))
 
-### UDA:
+### Unsupervised Domain Adaptation (UDA):
 CoNLL-2003 English NER data (In: `SDA/data/conll03_En`). <br>
 CBS SciTech News (test set) (In: `UDA/data/tech/tech.test`). <br>
 
