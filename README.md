@@ -9,7 +9,7 @@ For more details, please refer to our paper:
 [Multi-Cell Compositional LSTM for NER Domain Adaptation](https://www.aclweb.org/anthology/2020.acl-main.524.pdf)
 
 ## Overall Structure
-![Overall Structure](https://github.com/jiachenwestlake/Multi-Cell_LSTM/blob/master/Figure_overall.pdf)
+![Overall Structure](https://github.com/jiachenwestlake/Multi-Cell_LSTM/blob/master/overall_structure.PNG)
 
 **The Entity Typed cells (ET cells) corresponds to the source- and target-domain entity types (including O, which is used as the outside tagger in NER).**
 
