@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from .wordrep import WordRep
-from .MultiCell_LSTM_compose import MultiCellLSTM
+from .MultiCell_LSTM_compose_UDA import MultiCellLSTM
 from .cell2entity import Cell_to_Entity
 
 class WordSequence(nn.Module):
