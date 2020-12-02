@@ -31,9 +31,9 @@ BioBERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1Mj81A9SRtX
 ## DataSet
 ### Supervised Domain Adaptation (SDA):
 CoNLL-2003 English NER data (In: `SDA/data/conll03_En`) <br>
-Broad Twitter corpus (In: `SDA/data/broad_twitter_corpus`) <br>
+Broad Twitter corpus (In: `SDA/data/broad_twitter_corpus`) (or download from [*Here*](https://pan.baidu.com/s/1wbbZB7MHhTcsWe2UilT28Q) with key `0yko`)<br>
 [BioNLP'13PC and BioNLP'13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset <br>
-Twitter corpus (Refer to [*Here*](https://www.aclweb.org/anthology/P18-1185.pdf))
+Twitter corpus (Refer to [*Here*](https://www.aclweb.org/anthology/P18-1185.pdf)) (Download from [*Here*](https://pan.baidu.com/s/1g06HK3PHbb-iMFw1BiTiBQ) with key `bn75`)
 
 ### Unsupervised Domain Adaptation (UDA):
 CoNLL-2003 English NER data (In: `SDA/data/conll03_En`). <br>
