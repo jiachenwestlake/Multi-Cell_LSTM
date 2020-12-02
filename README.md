@@ -23,7 +23,7 @@ pytorch-pretrained-bert 0.6.1 (Optional)
 
 ## Word Embeddings and Pretrained LM Weights
 GloVe 100-dimension word vectors (Download from [*Here*](https://pan.baidu.com/s/1kgwVCGkbmcUVYyLb8VlXeQ) with key `ifyk`) <br>
-PubMed 200-dimension word vectors (Refer to [*Here*](https://www.aclweb.org/anthology/W16-2922/)) <br>
+PubMed 200-dimension word vectors (Refer to [*Here*](https://www.aclweb.org/anthology/W16-2922/)) (Download from [*Here*](https://pan.baidu.com/s/1_b9R_Uo06YDDlzEtpTe9Ig) with key `dr9k`)<br>
 ELMo Weights (Download from [*Here*](https://pan.baidu.com/s/1I4589wAsI-pivRcA4kTavg) with key `a9h6`) <br>
 BERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1c1sK_J-cbJvtz52WyA9IBg) with key `gbn1`) <br>
 BioBERT-base Weights (Download from [*Here*](https://pan.baidu.com/s/1Mj81A9SRtXwQ_SZoV8vHfA) with key `zsep`)
